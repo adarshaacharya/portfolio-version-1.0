@@ -1,0 +1,128 @@
+ /*==================================================
+			Bootstrap 3 Media Queries         
+==================================================*/
+
+
+/* Large Devices (Desktops & Laptops) */
+
+@media (min-width: 1200px) {
+    /* OK */
+}
+
+
+
+@media screen and (max-width : 575px) {
+
+    .about_section .about_img {
+        margin-top: -10px;
+        width: 70%;
+       margin-left: -150px;
+
+    }
+    
+    .blog-post{
+        margin-top: -10;
+    }
+    
+    #blog-btn{
+        margin-bottom: -60px;
+    }
+   
+    
+     #footer-copyrights {
+        text-align: center;
+    }
+    #home-topic{
+        font-size: 55px;
+    }
+    .txt-rotate{
+        font-size: 24px;
+    }
+      #about-head{
+        margin-top: 100px;
+    }
+    
+
+    .content-title h3 {
+        font-size: 25px;
+    }
+   
+}
+
+
+
+/* Extra Small Devices (Landscape Phones & Portrait Tablets) */
+@media (max-width: 767px) {
+       /* Buttons */
+    .btn-general {
+        padding: 10px 22px 10px 22px;
+        font-size: 14px;
+    }
+    
+  /* Blog */
+    #blog-left {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .blog-post {
+        margin-bottom: 25px;
+    }
+
+  #footer-copyrights {
+        text-align: center;
+    }
+    #home-topic{
+        font-size: 55px;
+    }
+    .txt-rotate{
+        font-size: 24px;
+    }
+      #about-head{
+        margin-top: 100px;
+    }
+    
+
+    .content-title h3 {
+        font-size: 25px;
+    }
+   
+}
+
+
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+      /* Blog */
+    .blog-post .post-meta p {
+        line-height: 14px;
+    }
+    
+    
+    .about_details {
+        width: 100%;    
+    }
+      #home-topic{
+        font-size: 55px;
+    }
+    .txt-rotate{
+        font-size: 24px;
+    }
+      #about-head{
+        margin-top: 100px;
+    }
+    
+
+    .content-title h3 {
+        font-size: 25px;
+    }
+   
+    
+}
+
+
+@media (max-width: 320px) {
+     margin-top: 40px;
+    
+}
